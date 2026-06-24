@@ -1,0 +1,62 @@
+[
+  {
+    "id": "JOB-0001",
+    "name": "Slope Stability Analysis",
+    "projectId": "PROJ-1001",
+    "computeType": "CPU Large",
+    "status": "completed",
+    "createdAt": "2024-05-20T10:30:00Z",
+    "startedAt": "2024-05-20T10:31:00Z",
+    "completedAt": "2024-05-20T10:41:00Z",
+    "inputFile": "slope_input.dat",
+    "outputFile": "slope_result.zip",
+    "durationMins": 10,
+    "creditCost": 30
+  },
+  {
+    "id": "JOB-0002",
+    "name": "Tunnel Simulation",
+    "projectId": "PROJ-1002",
+    "computeType": "GPU",
+    "status": "running",
+    "createdAt": "2024-05-20T10:12:00Z",
+    "startedAt": "2024-05-20T10:13:00Z",
+    "inputFile": "tunnel_mesh.dat"
+  },
+  {
+    "id": "JOB-0003",
+    "name": "Dam Stability Check",
+    "projectId": "PROJ-1003",
+    "computeType": "CPU Small",
+    "status": "queued",
+    "createdAt": "2024-05-20T10:05:00Z",
+    "inputFile": "dam_model.dat"
+  },
+  {
+    "id": "JOB-0004",
+    "name": "Retaining Wall Analysis",
+    "projectId": "PROJ-1004",
+    "computeType": "CPU Large",
+    "status": "failed",
+    "createdAt": "2024-05-20T09:30:00Z",
+    "startedAt": "2024-05-20T09:31:00Z",
+    "completedAt": "2024-05-20T09:33:00Z",
+    "inputFile": "wall_input.dat",
+    "durationMins": 2,
+    "creditCost": 6
+  },
+  {
+    "id": "JOB-0005",
+    "name": "Foundation Analysis",
+    "projectId": "PROJ-1005",
+    "computeType": "CPU Small",
+    "status": "completed",
+    "createdAt": "2024-05-19T16:20:00Z",
+    "startedAt": "2024-05-19T16:21:00Z",
+    "completedAt": "2024-05-19T16:28:00Z",
+    "inputFile": "foundation.dat",
+    "outputFile": "foundation_out.zip",
+    "durationMins": 7,
+    "creditCost": 14
+  }
+]
