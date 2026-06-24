@@ -43,6 +43,6 @@ No environment variables or backend are required — the app seeds itself from
 
 Live on Vercel (auto-deploys on every push to `master`):
 
-**https://frontend-take-home-assignment-git-master-ptpl2602s-projects.vercel.app/**
+**https://frontend-take-home-assignment-umber.vercel.app**
 
 Source: https://github.com/ptpl2602/Frontend-Take-Home-Assignment
