@@ -10,11 +10,8 @@ Built with React 19 + TypeScript + Vite, styled with Tailwind CSS and shadcn/ui 
 # Install dependencies
 npm install
 
-# Start the dev server (http://localhost:5173)
+# Start the dev server
 npm run dev
-
-# Production build + preview
-npm run build && npm run preview
 
 # Lint
 npm run lint
